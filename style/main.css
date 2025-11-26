@@ -489,3 +489,26 @@ body {
     font-size: 1.5rem; /* Smaller font size for smaller screens */
   }
 }
+/* iPhone 13 and similar small screens */
+@media (max-width: 420px) {
+    .text-box {
+        padding: 16px !important;
+    }
+
+    .hbd-chatbox {
+        font-size: 0.92rem !important;
+        line-height: 1.45 !important;
+    }
+
+    .fake-btn {
+        padding: 10px 14px !important;
+        font-size: 0.9rem !important;
+    }
+}
+
+/* Oppo Reno 4 (tall screen, mid width) */
+@media (max-width: 1080px) {
+    .text-box {
+        max-width: 520px !important;
+    }
+}
